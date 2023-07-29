@@ -3,7 +3,7 @@ from .models import Question, Choice
 # Register your models here.
 
 admin.site.site_header = "Pollster Admin"
-admin.site.site_title = "Pllster Admin Area"
+admin.site.site_title = "Pollster Admin Area"
 admin.site.index_title = "Welcome to the Pollster Admin Area!!!"
 
 class ChoiceInLine(admin.TabularInline):
